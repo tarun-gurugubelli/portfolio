@@ -16,24 +16,24 @@ export class ProfileService {
   projects:any = [
     {
       id: 1,
-      title: 'Fake news detection using several ML algorithms',
+      title: 'Terraform-aws-s3 Module',
       desc: '',
-      livedemo: '',
-      githurl: 'https://github.com/faizanalam1620/Fake-news-detection.git',
-      mediumlink: '',
-      imgUrl: 'assets/images/fake-news.webp',
-      tech: 'Python, Machine learning and Deep Learning'
+      livedemo: 'https://registry.terraform.io/modules/mayank0202/s3/aws/1.0.1',
+      githurl: 'github.com/mayank0202/terraform-aws-s3 ',
+      registry: '',
+      imgUrl: 'assets/images/terraform.png',
+      tech: 'Terraform and github Actions'
     },
 
     {
       id: 2,
-      title: 'Sentiment Analysis for tweets of twitter',
+      title: 'Birthday Application',
       desc: '',
-      livedemo: '',
-      githurl: 'https://github.com/faizanalam1620/Project1/tree/main/Sentiment%20Analysis%20Project',
+      livedemo: 'https://mayank0202.github.io/Birthday/',
+      githurl: 'https://github.com/mayank0202/Birthday',
       mediumlink: '',
-      imgUrl: 'assets/images/tweet-sentiment.jpeg',
-      tech: 'Python, Machine learning and Deep Learning'
+      imgUrl: 'assets/images/birthday.jpeg',
+      tech: 'HTML AND CSS'
     },
 
 
@@ -42,7 +42,7 @@ export class ProfileService {
       title: 'CRUD operation using PEAN stack',
       desc: '',
       livedemo: '',
-      githurl: '',
+      githurl: 'https://github.com/mayank0202/full-stack-Assignments',
       mediumlink: '',
       imgUrl: '',
       tech: 'Angular 10, Node, PostgreSQL, Express'
@@ -181,58 +181,57 @@ export class ProfileService {
     // },
 
   ]
-  about2 = `Software Developer with 1+ years of experience .
+  about2 = `Devops Engineer with 2+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Python, Artificial Intelligence/Machine Learning and various NLP technologies . 
-  Also worked with Javascript, Angular, Node JS, Express JS and UI with Responsive Designs .
+  Expertise in Terraform and Configuration files  . 
+  Also worked with Javascript, Angular and UI with Responsive Designs .
   Have good understanding of programming languages like Python, Java, JavaScript and worked on databases like Postgresql, MySQL, MongoDB etc .
-  Good problem solving skills and having expertise in Data Structure and Algorithms .
   Knowledge of various software design principles and patterns .
   Have used various cloud computing services with AWS .
   Used various tools like Docker, Github, Jenkins etc.`
 
-  about = " My strengths include building clean and efficient code with good attention to detail and my experience ranges from developing web apps to complex back end database management systems using Python, JavaScript and Java. With the wide knowledge of software engineering, I can apply different technology stacks to solve challenging problems as well. Always eager to learn new tools and technologies."
-  resumeurl = "https://drive.google.com/file/d/1uCBDRF1KG9d7PxAPnyU38DZ-lyQTcPfR/view?usp=sharing"
+  about = " Skilled DevOps Engineer with 2+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, Terraform and DevOps processes. I want to secure a challenging position where i can contribute my skills that offers professional growth while being innovative and flexible."
+  resumeurl = "https://drive.google.com/file/d/1bQBCk6He2GPdZdK7Njbfa2J2-8kwVUgw/view?usp=sharing"
 
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'Python',
+      'skill': 'Terraform',
       'progress': '85%'
     },
     {
       'id': '2',
-      'skill': 'Artificial Intelligence/Machine Learning',
+      'skill': 'Aws Services',
       'progress': '80%'
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT, Angular, Node JS, Express JS',
+      'skill': 'JAVASCRIPT, Angular, Typescript',
       'progress': '60%'
     },
     {
       'id': '4',
-      'skill': 'PostgreSQL , MYSQL, MONOGO',
+      'skill': 'PostgreSQL , MYSQL, MONGO',
       'progress': '75%'
     },
     {
       'id': '5',
-      'skill': 'FastAPI(Python Framework)',
+      'skill': 'Docker',
       'progress': '85%'
     },
     {
       'id': '6',
-      'skill': 'Data Structure & Algorithms',
+      'skill': 'Kubernetes',
       'progress': '70%'
     },
     {
       'id': '7',
-      'skill': 'AWS cloud services',
+      'skill': 'Jenkins',
       'progress': '70%'
     },
     {
       'id': '6',
-      'skill': 'Java, C++',
+      'skill': 'Ansible',
       'progress': '70%'
     }
   ];
@@ -276,30 +275,10 @@ Completed my Secondary school with 84%.`
       company: 'Sourcefuse Technologies',
       location: 'Noida, India',
       timeline: 'May 2021 to Present',
-      role: 'Junior Engineer- AI/ML',
-      work: 'Working as a full stack developer .Responsible for handling and Managing the api calls in python FastAPI along with AI/ML and NLP technologies.'
+      role: 'Junior Engineer- Devops',
+      work: 'Working as a Devops Engineer .Responsible for handling and Managing the CI/CD work and also handles the docker files and scripts for automation. Written DockerFiles for many services which were used in the organization and also written docker-compose that builds all the images and pushed to Amazon ECR   .Creating snapshots and amazon machine images (AMIs) of the instances for backup and creating clone instances   .Created IAC tool i.e. cdktf for aws-lambda and have integated sns , sqs and vpc and that tool is created in typescript    .Managed AWS assets and integrated multiple AWS resources into solutions appropriate for company projects.',
 
     },
-    {
-      id: 3,
-      company: 'Internship at Softnika solutions',
-      location: 'Remote',
-      timeline: 'May 18, 2020 to June 30, 2020',
-      role: 'Web Developer',
-      work: `Technologies : HTML, CSS, Javascript, PHP, MySQL .  
-      Developed a multipage web application on online food ordering system using PHP as backend with MySQL and HTML, CSS and JS for frontend`
-    },
-
-    {
-      id: 2,
-      company: 'Internship at Bihar State Electronic Development Corporation (BSEDC) Ltd. Patna',
-      location: 'Patna',
-      timeline: '',
-      role: 'Project Trainee',
-      work: `Technologies : HTML, CSS and JavaScript . 
-      Developed BSWAN website for BSEDC using HTML, CSS and JS.
-  `
-    }
 
   ]
 
