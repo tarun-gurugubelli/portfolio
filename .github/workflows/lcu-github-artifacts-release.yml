@@ -32,4 +32,4 @@ jobs:
       - name: Build
         run: yarn build
       - name: Deploy
-        run: aws s3 sync ./docs s3://testbucketdevops123
+        run: aws s3 sync ./docs s3://mayank-portfolio-11
