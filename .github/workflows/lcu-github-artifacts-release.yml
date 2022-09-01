@@ -33,8 +33,6 @@ jobs:
         with:
           node-version: '16'
           cache: 'npm'    
-      - name: Lint
-        run: npm run lint
 
       - name: Tests
         run: npm run test:prod   
