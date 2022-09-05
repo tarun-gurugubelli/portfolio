@@ -34,4 +34,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: aws s3 sync ./docs s3://www.mayankdevops.co
+        run: aws s3 sync ./docs s3://testbucketdevops123
