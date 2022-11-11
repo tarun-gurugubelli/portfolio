@@ -197,7 +197,7 @@ export class ProfileService {
     {
       'id': '1',
       'skill': 'Terraform',
-      'progress': '85%'
+      'progress': '95%%'
     },
     {
       'id': '2',
