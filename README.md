@@ -1,3 +1,5 @@
+[![Build & deploy](https://github.com/mayank0202/portfolio/actions/workflows/lcu-github-artifacts-release.yml/badge.svg)](https://github.com/mayank0202/portfolio/actions/workflows/lcu-github-artifacts-release.yml)
+
 # PersonalPortfoliAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
