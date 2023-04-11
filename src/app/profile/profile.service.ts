@@ -190,8 +190,8 @@ export class ProfileService {
   Have used various cloud computing services with AWS .
   Used various tools like Docker, Github, Jenkins etc.`
 
-  about = " Skilled DevOps Engineer with 2+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, Terraform and DevOps processes. I want to secure a challenging position where i can contribute my skills that offers professional growth while being innovative and flexible."
-  resumeurl = "https://drive.google.com/file/d/1GMTORlCI2RL6gWtyxHSd39OaIXA11c3Q/view?usp=sharing"
+  about = " Skilled DevOps Engineer with 2 years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, Terraform and DevOps processes. I want to secure a challenging position where i can contribute my skills that offers professional growth while being innovative and flexible."
+  resumeurl = "https://drive.google.com/file/d/1zl5Jq5K_dU0fv4xm_uKWo0ynTNfeIesn/view?usp=sharing"
 
   skillsData: any = [
     {
@@ -206,8 +206,8 @@ export class ProfileService {
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT, Angular, Typescript',
-      'progress': '60%'
+      'skill': 'Python & Shell Scripting',
+      'progress': '70%'
     },
     {
       'id': '4',
