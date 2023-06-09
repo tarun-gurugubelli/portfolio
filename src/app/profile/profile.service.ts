@@ -230,9 +230,19 @@ export class ProfileService {
       'progress': '70%'
     },
     {
-      'id': '6',
-      'skill': 'Ansible',
-      'progress': '70%'
+      'id': '8',
+      'skill': 'Pulumi',
+      'progress': '80%'
+    },
+    {
+      'id': '9',
+      'skill': 'Render',
+      'progress': '80%'
+    },
+    {
+      'id': '10',
+      'skill': 'AWS LEX',
+      'progress': '80%'
     }
   ];
 
