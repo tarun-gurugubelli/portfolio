@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
 })
 export class ProfileService {
   //baseUrl = environment.baseUrl;
-
+ƒ
   constructor(
     private http: HttpClient
   ) { }
@@ -181,7 +181,7 @@ export class ProfileService {
     // },
 
   ]
-  about2 = `Devops Engineer with 2+ years of experience .
+  about2 = `Devops Engineer with 3+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Expertise in Terraform and Configuration files  . 
   Also worked with Javascript, Angular and UI with Responsive Designs .
@@ -190,8 +190,8 @@ export class ProfileService {
   Have used various cloud computing services with AWS .
   Used various tools like Docker, Github, Jenkins etc.`
 
-  about = "Results-driven DevOps Engineer with a proven track record of 2 years in supporting, automating, and optimizing mission-critical deployments on AWS. Proficient in leveraging advanced configuration management, CI/CD practices, Terraform, and a strong understanding of DevOps methodologies. Seeking a challenging position where I can contribute my expertise, drive innovation, and adapt to evolving technologies while fostering professional growth."
-  resumeurl = "https://resume-mayank.s3.amazonaws.com/Mayank's+Resume.pdf"
+  about = "Results-driven DevOps Engineer with a proven track record of 3 years in supporting, automating, and optimizing mission-critical deployments on AWS. Proficient in leveraging advanced configuration management, CI/CD practices, Terraform, and a strong understanding of DevOps methodologies. Seeking a challenging position where I can contribute my expertise, drive innovation, and adapt to evolving technologies while fostering professional growth."
+  resumeurl = "https://resume-mayank.s3.amazonaws.com/Resume.pdf"
 
   skillsData: any = [
     {
